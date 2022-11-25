@@ -18,7 +18,7 @@ const Info = ({ image, title, description }) => {
             </p>
             <button onClick={() => setCartOpened(false)} className="greenButton">
               Вернуться назад
-              <img src="./img/arrow.svg" alt="Arrow" />
+              <img src="img/arrow.svg" alt="Arrow" />
             </button>
           </div>
   )

@@ -44,7 +44,7 @@ function CartDrawer({ onClose, onRemove, items = [], opened }) {
           Корзина{" "}
           <img
             className="removeBtn cu-p"
-            src="./img/btn-remove.svg"
+            src="img/btn-remove.svg"
             alt="Close"
             onClick={onClose}
           />
@@ -69,7 +69,7 @@ function CartDrawer({ onClose, onRemove, items = [], opened }) {
                   <img
                     onClick={() => onRemove(obj.id)}
                     className="removeBtn"
-                    src="./img/btn-remove.svg"
+                    src="img/btn-remove.svg"
                     alt="Remove"
                   />
                 </div>
@@ -93,7 +93,7 @@ function CartDrawer({ onClose, onRemove, items = [], opened }) {
                 onClick={onClockOrder}
                 className="greenButton"
               >
-                Оформить заказ <img src="/img/arrow.svg" alt="Arrow" />
+                Оформить заказ <img src="img/arrow.svg" alt="Arrow" />
               </button>
             </div>
           </div>
@@ -107,8 +107,8 @@ function CartDrawer({ onClose, onRemove, items = [], opened }) {
             }
             image={
               isOrderComplete
-                ? "/img/complete-order.jpg"
-                : "/img/empty-cart.jpg"
+                ? "img/complete-order.jpg"
+                : "img/empty-cart.jpg"
             }
           />
         )}
