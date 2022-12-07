@@ -10,9 +10,9 @@ function Header(props) {
   
   return (
     <header className="d-flex justify-between align-center p-40">
-      <Link to="/">
+      <Link to="/STORE">
         <div className="d-flex align-center">
-          <img width={40} height={40} src="img/logo.png" alt="Logo" />
+          <img width={40} height={40} src="https://github.com/Torin72/STORE/blob/gh-pages/img/logo.png?raw=true" alt="Logo" />
           <div>
             <h3 className="text-uppercase">Clothing store</h3>
             <p className="opacity-5">Магазин лучшей одежды</p>
@@ -25,19 +25,19 @@ function Header(props) {
             className="mr-20"
             width={18}
             height={18}
-            src="img/cart.svg"
+            src="https://raw.githubusercontent.com/Torin72/STORE/8b4a81f0c42eccb11212737af00b96e5bfc0d878/img/cart.svg"
             alt="Cart"
           />
           <span>{ totalPrice } руб</span>
         </li>
         <li className="mr-20 cu-p">
           <Link to="/favorites">
-            <img width={18} height={18} src="img/heart.svg" alt="Heart" />
+            <img width={18} height={18} src="https://raw.githubusercontent.com/Torin72/STORE/8b4a81f0c42eccb11212737af00b96e5bfc0d878/img/heart.svg" alt="Heart" />
           </Link>
         </li>
         <li>
           <Link to='/orders'>
-          <img width={18} height={18} src="img/user.svg" alt="User" />
+          <img width={18} height={18} src="https://raw.githubusercontent.com/Torin72/STORE/8b4a81f0c42eccb11212737af00b96e5bfc0d878/img/user.svg" alt="User" />
           </Link>
         </li>
       </ul>

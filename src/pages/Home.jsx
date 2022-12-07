@@ -34,11 +34,11 @@ function Home({
           {searchValue ? `Поиск по запросу: "${searchValue}"` : "Вся одежда"}
         </h1>
         <div className="search-block d-flex">
-          <img src="img/search.svg" alt="Search" />
+          <img src="https://raw.githubusercontent.com/Torin72/STORE/8b4a81f0c42eccb11212737af00b96e5bfc0d878/img/search.svg" alt="Search" />
           {searchValue && (
             <img
               className="clear removeBtn cu-p"
-              src="img/btn-remove.svg"
+              src="https://raw.githubusercontent.com/Torin72/STORE/8b4a81f0c42eccb11212737af00b96e5bfc0d878/img/btn-remove.svg"
               alt="Clear"
               onClick={() => setSearchValue("")}
             />

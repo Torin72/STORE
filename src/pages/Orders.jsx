@@ -11,8 +11,7 @@ function Orders() {
     ( async() => {
      try{
       const { data } = await axios.get(
-        "https://63590ed8ff3d7bddb997c370.mockapi.io/Orders");
-        // console.log(data.map(obj => obj.items).flat())
+        "https://63590ed8ff3d7bddb997c370.mockapi.io/Orders");       
         setOrders(data.reduce((prev, obj) => [...prev, ...obj.items], []))
         setIsLoading(false)
      } catch (error) {

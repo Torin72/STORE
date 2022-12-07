@@ -7,7 +7,7 @@ const Info = ({ image, title, description }) => {
   return (
     <div className="cartEmpty d-flex align-center justify-center flex-column flex">
             <img
-              src= {image}   // ".\img\empty-cart.jpg"
+              src= {image}   
               className="mb-20"
               width="120px"
               alt="emptyTrashcan"
@@ -18,7 +18,7 @@ const Info = ({ image, title, description }) => {
             </p>
             <button onClick={() => setCartOpened(false)} className="greenButton">
               Вернуться назад
-              <img src="img/arrow.svg" alt="Arrow" />
+              <img src="https://raw.githubusercontent.com/Torin72/STORE/8b4a81f0c42eccb11212737af00b96e5bfc0d878/img/arrow.svg" alt="Arrow" />
             </button>
           </div>
   )

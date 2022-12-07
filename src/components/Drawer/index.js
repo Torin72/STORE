@@ -44,7 +44,7 @@ function CartDrawer({ onClose, onRemove, items = [], opened }) {
           Корзина{" "}
           <img
             className="removeBtn cu-p"
-            src="img/btn-remove.svg"
+            src="https://raw.githubusercontent.com/Torin72/STORE/8b4a81f0c42eccb11212737af00b96e5bfc0d878/img/btn-remove.svg"
             alt="Close"
             onClick={onClose}
           />
@@ -69,7 +69,7 @@ function CartDrawer({ onClose, onRemove, items = [], opened }) {
                   <img
                     onClick={() => onRemove(obj.id)}
                     className="removeBtn"
-                    src="img/btn-remove.svg"
+                    src="https://raw.githubusercontent.com/Torin72/STORE/8b4a81f0c42eccb11212737af00b96e5bfc0d878/img/btn-remove.svg"
                     alt="Remove"
                   />
                 </div>
@@ -93,7 +93,7 @@ function CartDrawer({ onClose, onRemove, items = [], opened }) {
                 onClick={onClockOrder}
                 className="greenButton"
               >
-                Оформить заказ <img src="img/arrow.svg" alt="Arrow" />
+                Оформить заказ <img src="https://raw.githubusercontent.com/Torin72/STORE/8b4a81f0c42eccb11212737af00b96e5bfc0d878/img/arrow.svg" alt="Arrow" />
               </button>
             </div>
           </div>
@@ -107,8 +107,8 @@ function CartDrawer({ onClose, onRemove, items = [], opened }) {
             }
             image={
               isOrderComplete
-                ? "img/complete-order.jpg"
-                : "img/empty-cart.jpg"
+                ? "https://github.com/Torin72/STORE/blob/gh-pages/img/complete-order.jpg?raw=true"
+                : "https://github.com/Torin72/STORE/blob/gh-pages/img/empty-cart.jpg?raw=true"
             }
           />
         )}

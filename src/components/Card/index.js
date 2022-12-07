@@ -50,7 +50,7 @@ function Card({
         <>
            {onFavorite && (
             <div className={styles.favorite} onClick={onClickFavorite}>
-              <img src={isFavorite ? 'img/liked.svg' : 'img/unliked.svg'} alt="Unliked" />
+              <img src={isFavorite ? 'https://raw.githubusercontent.com/Torin72/STORE/8b4a81f0c42eccb11212737af00b96e5bfc0d878/img/liked.svg' : 'https://raw.githubusercontent.com/Torin72/STORE/8b4a81f0c42eccb11212737af00b96e5bfc0d878/img/unliked.svg'} alt="Unliked" />
             </div>
           )}
           <img width={133} height={112} src={imageUrl} alt="Sneakers"></img>
@@ -63,7 +63,7 @@ function Card({
             { onPlus && (<img
               className={styles.plus}
               onClick={onClickPlus}
-              src={isItemAdded(id) ? "img/btn-checked.svg" : "img/btn-plus.svg"}
+              src={isItemAdded(id) ? "https://raw.githubusercontent.com/Torin72/STORE/8b4a81f0c42eccb11212737af00b96e5bfc0d878/img/btn-checked.svg" : "https://raw.githubusercontent.com/Torin72/STORE/8b4a81f0c42eccb11212737af00b96e5bfc0d878/img/btn-plus.svg"}
               alt="Plus"
              />)}
           </div>
